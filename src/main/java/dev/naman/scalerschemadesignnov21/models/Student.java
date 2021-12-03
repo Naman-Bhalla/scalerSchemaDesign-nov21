@@ -18,3 +18,19 @@ public class Student extends BaseModel {
     @ManyToMany(mappedBy = "students")
     private List<Batch> batches;
 }
+
+
+// IDiscount
+// Discount {
+//   private int maximumValue;
+//   private int percent;
+// }
+// discounts
+// id | maxValue | percent
+// products
+// id | name | brand
+// you can actually store the code in a db
+// createNewDiscount() -> push to code => type checking
+// DDL -> Data Descrip[tion Language
+// 12 PRODUCT DISCOUNT PERCENT
+// DDLParser.calculateDiscount(Product, String) {} ->
